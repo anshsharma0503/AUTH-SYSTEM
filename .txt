@@ -1,0 +1,5 @@
+You built a stateless authentication system where users register, log in to
+ receive a JWT token, and must include that token in request headers to access
+  protected routes. The server does not remember users; instead, middleware
+   verifies the token on every request and attaches user identity before allowing
+    access to protected data.
